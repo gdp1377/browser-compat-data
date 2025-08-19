@@ -115,9 +115,6 @@
                 "version_added": "131"
               },
               "firefox_android": "mirror",
-              "ie": {
-                "version_added": false
-              },
               "oculus": "mirror",
               "opera": "mirror",
               "opera_android": "mirror",
@@ -152,9 +149,6 @@
                 "version_added": "131"
               },
               "firefox_android": "mirror",
-              "ie": {
-                "version_added": false
-              },
               "oculus": "mirror",
               "opera": "mirror",
               "opera_android": "mirror",
@@ -191,9 +185,6 @@
               "version_added": "131"
             },
             "firefox_android": "mirror",
-            "ie": {
-              "version_added": false
-            },
             "oculus": "mirror",
             "opera": "mirror",
             "opera_android": "mirror",
@@ -229,9 +220,6 @@
               "version_added": "131"
             },
             "firefox_android": "mirror",
-            "ie": {
-              "version_added": false
-            },
             "oculus": "mirror",
             "opera": "mirror",
             "opera_android": "mirror",
@@ -271,9 +259,6 @@
               "partial_implementation": true,
               "notes": "The method always returns an empty array, regardless of the user's actions."
             },
-            "ie": {
-              "version_added": false
-            },
             "oculus": "mirror",
             "opera": "mirror",
             "opera_android": "mirror",
@@ -309,9 +294,6 @@
               "version_added": "89"
             },
             "firefox_android": "mirror",
-            "ie": {
-              "version_added": false
-            },
             "oculus": "mirror",
             "opera": "mirror",
             "opera_android": "mirror",
@@ -436,12 +418,9 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "141"
             },
             "firefox_android": "mirror",
-            "ie": {
-              "version_added": false
-            },
             "oculus": "mirror",
             "opera": "mirror",
             "opera_android": "mirror",
@@ -454,7 +433,7 @@
             "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -578,8 +557,7 @@
                 }
               ],
               "firefox": {
-                "version_added": false,
-                "impl_url": "https://bugzil.la/1680669"
+                "version_added": "135"
               },
               "firefox_android": "mirror",
               "ie": {
@@ -592,7 +570,7 @@
               "opera_android": "mirror",
               "safari": {
                 "version_added": false,
-                "impl_url": "https://webkit.org/b/133180"
+                "impl_url": "https://webkit.org/b/279540"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -675,9 +653,6 @@
             },
             "firefox_android": {
               "version_added": "79"
-            },
-            "ie": {
-              "version_added": false
             },
             "oculus": "mirror",
             "opera": "mirror",
@@ -801,9 +776,6 @@
             },
             "firefox_android": {
               "version_added": "79"
-            },
-            "ie": {
-              "version_added": false
             },
             "oculus": "mirror",
             "opera": "mirror",
