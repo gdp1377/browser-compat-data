@@ -1,3 +1,9 @@
 $stmt = $pdo->prepare("SELECT * FROM users WHERE username = :username");
 $stmt->execute(['username' => $user_input]);
 $result = $stmt->fetch();
+// BAD
+$output = shell_exec("echo " . $_POST['email']);
+
+// GOOD
+$output = escapeshellarg($_POST['email']); // only if you must
+// or better: avoid shell completely
